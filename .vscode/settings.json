@@ -1,0 +1,53 @@
+{
+    "editor.detectIndentation": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": true,
+    "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "editor.formatOnSave": true,
+    "html.format.wrapLineLength": 0,
+    "html.format.wrapAttributes": "force-aligned",
+    "typescript.updateImportsOnFileMove.enabled": "prompt",
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "[typescript]": {
+        "editor.defaultFormatter": "Vue.volar",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[scss][css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "explorer.copyRelativePathSeparator": "/",
+    "vue.splitEditors.icon": true,
+    "vue.splitEditors.layout.left": [
+        "template",
+        "customBlocks",
+    ],
+    "vue.splitEditors.layout.right": [
+        "script",
+        "scriptSetup",
+        "styles"
+    ],
+    "vue.codeLens.enabled": false,
+    "vue.complete.casing.tags": "kebab",
+    "vue.complete.casing.props": "kebab",
+    "vue.inlayHints.missingProps": true,
+    "vue.codeActions.enabled": true,
+    "vue.format.script.initialIndent": true,
+    "vue.format.style.initialIndent": true,
+    "vue.format.template.initialIndent": true
+}

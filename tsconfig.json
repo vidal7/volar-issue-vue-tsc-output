@@ -1,0 +1,39 @@
+{
+    "files": [
+        "src/dummy.vue",
+        "src/wrapper.vue"
+    ],
+    "compilerOptions": {
+        "lib": [
+            "es5",
+            "es6",
+            "dom"
+        ],
+        "target": "es5",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "types": [],
+        "noEmitOnError": true,
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noUncheckedIndexedAccess": false,
+        "sourceMap": true,
+        "importHelpers": true,
+        "forceConsistentCasingInFileNames": true,
+        "importsNotUsedAsValues": "remove",
+        "skipLibCheck": true,
+        "moduleSuffixes": [
+            "",
+            ".vue"
+        ]
+    },
+    "vueCompilerOptions": {
+        "target": 2.7
+    }
+}

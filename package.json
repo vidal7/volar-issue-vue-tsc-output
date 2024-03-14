@@ -1,0 +1,13 @@
+{
+  "name": "volar-issue-",
+  "description": "Reproduction repo for volar issue ",
+  "author": "Vincent Dallaire <vincent.dallaire@dti.ulaval.ca>",
+  "scripts": {
+    "compile": "vue-tsc --project ./tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "typescript": "^5.1.6",
+    "vue": "^2.7.14",
+    "vue-tsc": "^2.0.6"
+  }
+}
